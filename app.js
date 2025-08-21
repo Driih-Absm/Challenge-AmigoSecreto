@@ -13,4 +13,9 @@ function adicionarAmigo(){
     }
 }
 
+function limparCampo(){
+    amigosInseridos = document.querySelector('input');
+    amigosInseridos.value = '';
+}
+
 
